@@ -1,0 +1,114 @@
+/* Title Header section */
+.title-header {
+  text-align: center;
+}
+
+.title-header h1 {
+  font-size: 50px;
+  margin: 3% 0px;
+}
+
+/* TaskInputForm section */
+
+.task-input-form {
+  padding: 0 30% 0 30%;
+}
+
+.form-check {
+  padding: 0 0 44% 0;
+}
+
+.btn-group {
+  padding: 0% 0 0 0%;
+}
+
+.add-task-btn {
+  padding: 2% 39%;
+  text-align: center;
+}
+
+/* Eisenhower Matrix */
+
+.eisenhower-matrix {
+  padding: 3% 20%;
+}
+
+.eisenhower-matrix .row {
+  margin: 2px;
+}
+
+/* Matrix Cell */
+#matrix-cell {
+  margin: 2%;
+}
+
+.cell {
+  /* border: 1px solid black; */
+  background-color: #ededed;
+  border-radius: 0.5rem;
+  padding: 1%;
+}
+
+.list-name {
+  font-size: 2rem;
+  margin-bottom: 1%;
+}
+
+.urgent-important {
+  background-color: #95e0be;
+}
+
+.not-urgent-important {
+  background-color: #ed8e72;
+}
+
+.urgent-not-important {
+  background-color: #4473d3;
+}
+
+.not-ugrgent-not-important {
+  background-color: #f1696b;
+}
+
+.task-list {
+  padding: 2% 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.task-list .container-fluid {
+  margin: 0;
+}
+
+/* Task Item */
+.row p {
+  padding-left: 0;
+  padding-right: 0; 
+}
+
+.task-text {
+  font-size: 1.5rem;
+}
+
+.task-text.container-fluid {
+  padding-left: 0;
+  padding-right: 0; 
+}
+
+.task-item {
+  background-color: white;
+  padding: 2% 0;
+  margin: 1% 0;
+}
+
+.delete-icon {
+  text-align: right;
+}
+
+.form-check-input {
+  transform: scale(1.1);
+}
+
+.delete-icon {
+  text-align: right;
+}
