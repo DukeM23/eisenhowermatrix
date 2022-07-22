@@ -4,6 +4,17 @@ function TaskItem(props) {
   const [checked, setChecked] = useState(false);
   const [hover, setHover] = useState(false);
 
+  // Returns current at which the task was map.
+  function currentDate() {
+    let today = new Date();
+    let dd = String(today.getDate()).padStart(2, "0");
+    let mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+    let yyyy = today.getFullYear();
+
+    today = mm + "/" + dd + "/" + yyyy;
+    return today;
+  }
+
   function handleMouseOver() {
     setHover(true);
   }
@@ -33,7 +44,7 @@ function TaskItem(props) {
             >
               <div className="row">
                 <p>{props.taskItem}</p>
-                <div></div>
+                <p className="task-date">{currentDate()}</p>
               </div>
             </div>
           </div>

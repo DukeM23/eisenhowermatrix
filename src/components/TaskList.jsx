@@ -8,7 +8,7 @@ function reorder(list, startIndex, endIndex) {
   const result = Array.from(list); // Make a shallow copy of the list
   const [removed] = result.splice(startIndex, 1); // Removed the seleted item from the list and stores removed item
   result.splice(endIndex, 0, removed); // At destination index, add the removed item from list in front of the destination index.
-
+  console.log("something" + result);
   return result;
 }
 
@@ -23,7 +23,7 @@ function TaskList(props) {
       result.source.index,
       result.destination.index
     );
-    return props.handleOnDragDrop(props.id, modifiedTaskList);
+    return props.handleOnDragDrop(props.listId, modifiedTaskList);
   }
 
   return (
